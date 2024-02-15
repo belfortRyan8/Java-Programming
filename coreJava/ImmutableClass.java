@@ -1,9 +1,10 @@
 package coreJava;
 /*
-    * Can we create our own class[UserDefined]as Immutable? [interview question ]
+    * Can we create our own class[UserDefined]as Immutable just like String ,StringBuffern, StringBuilder class ? [interview question ]
     -> yes ,it is possible to make userdefined class a Immutable class.
  */
-class ImmutableClassDemo{
+final class ImmutableClassDemo{ // we make this class as final so that other's can't extend it .
+    // we
     private int i ;
     public ImmutableClassDemo(int i){
         this.i = i ;
