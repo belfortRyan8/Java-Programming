@@ -1,4 +1,5 @@
 package exceptionHandling;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,7 +12,7 @@ public class FinallyBlockExample {
         BufferedReader br = null;
         try {
             // Risky code
-            br = new BufferedReader(new FileReader("example.txt"));
+            br = new BufferedReader(new FileReader("demo.txt"));
             String line;
             while ((line = br.readLine()) != null) {
                 System.out.println(line);
