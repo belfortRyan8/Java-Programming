@@ -2,7 +2,7 @@ package advancedJava.inputOutputOperation;
 
 import java.io.*;
 
-public class RemoveDuplicatesNumbersFromFile {
+public class RemoveDuplicateNumbersFromFile {
     public static void main(String[] args) throws IOException {
         PrintWriter out = new PrintWriter(new FileWriter("originalList.txt"));
 
