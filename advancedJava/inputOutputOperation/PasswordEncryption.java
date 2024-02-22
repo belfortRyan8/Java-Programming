@@ -5,7 +5,6 @@ import java.io.ObjectOutputStream;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.io.IOException;
-import java.lang.ClassCastException;
 
 class Account implements Serializable {
     String userName ;
@@ -36,7 +35,7 @@ class Account implements Serializable {
                 pin = encryptedPin.substring(4);
         }
 }
-public class EncryptionExample {
+public class PasswordEncryption {
     public static void main(String[] args) throws Exception{
         // serialization
         Account account = new Account("ryan","ryan8","1234");
