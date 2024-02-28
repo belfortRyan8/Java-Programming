@@ -1,4 +1,4 @@
-package exceptionHandling;
+package coreJava.exceptionHandling;
 /*
     Throwable class defines the following methods to print exception information to the console . these are :
     1 . printStackTrace( )  :   it prints the name , description and stace trace of the exception

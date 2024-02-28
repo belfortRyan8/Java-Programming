@@ -1,4 +1,4 @@
-package coreJava;
+package coreJava.oops;
 import java.lang.*;
 /*
 *   If a variable is declared with the 'private' keyword in Java, it can only be accessed

@@ -1,4 +1,4 @@
-package exceptionHandling;
+package coreJava.exceptionHandling;
 /*
     To handle the exception we can use multiple catch block .
     If we try to work with multiple catch blocks, then order of catch blocks is very important, it should be from child to parent, by mistake

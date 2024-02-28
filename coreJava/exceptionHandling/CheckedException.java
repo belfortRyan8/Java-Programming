@@ -1,4 +1,4 @@
-package exceptionHandling;
+package coreJava.exceptionHandling;
 
 import java.lang.*;
 import java.io.File;

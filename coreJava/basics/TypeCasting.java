@@ -1,4 +1,4 @@
-package coreJava;
+package coreJava.basics;
 import java.lang.*;
 /*
 *   The process of converting data from one type to another type is called TypeCasting. There are 2 types

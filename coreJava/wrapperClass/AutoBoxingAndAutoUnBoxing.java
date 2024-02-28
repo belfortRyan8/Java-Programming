@@ -1,4 +1,4 @@
-package coreJava;
+package coreJava.wrapperClass;
 /*
     AutoBoxing ::   Automatic Conversion of primitive data to Wrapper Object by the compiler is known as AutoBoxing .
                     Internally compiler will call the : valueOf( )

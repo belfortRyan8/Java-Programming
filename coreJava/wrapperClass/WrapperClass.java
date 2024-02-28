@@ -1,4 +1,4 @@
-package coreJava;
+package coreJava.wrapperClass;
 import java.lang.*;
 /*
 *   Why we Need Wrapper Class : To wrap primitives into Object form, so that we can handle primitives also just like Objects.

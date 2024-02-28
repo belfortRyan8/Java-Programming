@@ -7,7 +7,7 @@ import  java.io.*;
  */
 public class ShowFileAndDirectory {
     public static void main(String[] args) throws IOException{
-        File file = new File("C:\\Users\\ryan belfort\\IdeaProjects\\Java-Programming\\exceptionHandling");
+        File file = new File("C:\\Users\\ryan belfort\\IdeaProjects\\Java-Programming\\coreJava.exceptionHandling");
 
         String[] fileInfo = file.list();
 
@@ -15,7 +15,7 @@ public class ShowFileAndDirectory {
         int countNumberOfDirectory = 0 ;
 
         for(String info : fileInfo){
-            //Creating a File Object for "C:\\Users\\ryan belfort\\IdeaProjects\\Java-Programming\\exceptionHandling"
+            //Creating a File Object for "C:\\Users\\ryan belfort\\IdeaProjects\\Java-Programming\\coreJava.exceptionHandling"
             File file2 = new File(file,info);
             // if it is File
             if(file2.isFile()){

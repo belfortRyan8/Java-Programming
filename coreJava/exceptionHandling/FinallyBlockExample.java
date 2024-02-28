@@ -1,4 +1,4 @@
-package exceptionHandling;
+package coreJava.exceptionHandling;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
