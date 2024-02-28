@@ -51,5 +51,15 @@ public class StringMethods {
         System.out.println("starts with :"+s.startsWith("ri")); // true
         System.out.println("ends with : "+s.endsWith("on")); // false
         System.out.println("ends with :"+s.endsWith("an")); // true
+
+        isEmptyAndisBlanck:{
+            String s3 = "";
+            System.out.println(s3.isEmpty()); // true
+            System.out.println(s3.isBlank()); // true
+
+            String s4 = " ";
+            System.out.println(s3.isEmpty()); // false
+            System.out.println(s3.isBlank()); // true
+        }
     }
 }

@@ -7,7 +7,7 @@ package coreJava.stringHandling;
 
 import java.lang.String;
 
-public class StringBasic {
+public class StringBasics {
     public static void main(String[] args) {
         string :
         {
