@@ -4,7 +4,7 @@ import java.util.*;
 /**
  *  Stack : it follows LIFO or last in first out principle ..
  */
-public class StackDemo {
+public class StackExample {
     public static void main(String[] args) {
         Stack stack = new Stack();
         System.out.println("is it empty : "+stack.empty());
